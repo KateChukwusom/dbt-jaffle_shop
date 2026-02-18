@@ -1,0 +1,12 @@
+sources:
+    - name: jaffle_shop
+      description: This is an already existing data by dbt/bigquery for learning dbt with bigquery
+      database: dbt-tutorial
+      schema: jaffle_shop
+      tables:
+          - name: customers
+            description: One record per customer.
+          - name: orders
+            description: One record per order. Includes cancelled and deleted orders.
+
+          
